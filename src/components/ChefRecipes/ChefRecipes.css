@@ -1,0 +1,36 @@
+/* Container for the entire component */
+.chef-recipes {
+    width: 800px;
+  }
+  
+
+/* Recipe cards */
+.recipe-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    height: 1500px;
+    margin-top: 40px;
+    margin-left: 90px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+  }
+  
+  .recipe-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 60px;
+  }
+  .span{
+    font-weight: bold;
+  }
+  .recipe-card ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 60px;
+  }
+  
+  .recipe-card li {
+    margin-bottom: 8px;
+  }

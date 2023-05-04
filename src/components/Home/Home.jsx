@@ -3,6 +3,7 @@ import './Home.css';
 import PropTypes from 'prop-types';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const chefs = [
   {
@@ -63,7 +64,7 @@ const ChefCard = ({ chef }) => {
       <p>Years of experience: {chef.experience}</p>
       <p>Number of recipes: {chef.recipes}</p>
       <p>Likes: {chef.likes}</p>
-      <button className='btn'>View Recipes</button>
+      <Link to="/recipes"><button className='btn'>View Recipes</button></Link>
     </div>
   );
 };
