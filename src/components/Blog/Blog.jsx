@@ -1,10 +1,26 @@
 import React from 'react';
 import './Blog.css'
+import { PDFExport } from '@progress/kendo-react-pdf';
+import { useState } from 'react';
 
 const Blog = () => {
+    const [pdfExportComponent, setPdfExportComponent] = useState(null);
+    const generatePdf = () => {
+        pdfExportComponent.save();
+      }
+      
     return (
-        <div>
+        <PDFExport
+  ref={(component) => setPdfExportComponent(component)}
+  paperSize="A4"
+  landscape={false}
+  fileName={`Blog-${Date.now()}`}
+  margin={{ top: '1cm', right: '1cm', bottom: '1cm', left: '1cm' }}
+>
+<div className='top'>
             <h2>Some Questions</h2>
+            <button onClick={generatePdf}>Download PDF</button>
+
             <p>
                 <span className='pen'>1. Tell us the differences between uncontrolled and controlled components.
                 </span><br></br>
@@ -55,6 +71,8 @@ const Blog = () => {
                 Creating reusable abstractions: Custom hooks can be used to create reusable abstractions that can be used across multiple projects. For example, you could create a custom hook that encapsulates authentication logic, which can be used across multiple projects.
             </p> <br></br>
         </div>
+        </PDFExport>
+        
     );
 };
 
