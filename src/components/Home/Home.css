@@ -12,7 +12,7 @@
   text-align: center;
 }
 .homepage{
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .banner-section h1 {
   font-size: 48px;
@@ -108,15 +108,21 @@
     margin-top: -400px;
   }
   .section {
-    background-color: #f8f8f8;
+    background-color: whitesmoke;
     padding: 50px 0;
     text-align: center;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 40px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
   }
   .section .sec2{
     margin-top: 50px;
   }
   .section h2 {
-    font-size: 36px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
   
@@ -141,19 +147,66 @@
   }
   
   .testimonial {
-    border: 1px solid #ddd;
     padding: 30px;
     margin-bottom: 30px;
     text-align: center;
   }
   
   .testimonial p:first-of-type {
-    font-size: 24px;
     margin-bottom: 20px;
   }
   
   .testimonial p:last-of-type {
-    font-size: 18px;
     font-style: italic;
   }
+  
+
+  /* footer */
+  footer {
+    background-color: wheat;
+    padding: 30px 0;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 40px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+  }
+  
+  footer h5 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer ul li a {
+    color: #777;
+    text-decoration: none;
+  }
+  
+  footer ul li a:hover {
+    color: #333;
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    background-color: beige;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 40px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+  }
+  
+  .footer-bottom p {
+    margin-bottom: 0;
+  }
+  
   

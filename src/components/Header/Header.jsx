@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <nav className='nav'>
             <img className='header'
-            src="https://images.unsplash.com/photo-1466784828399-9a9921e8bdfd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9vZCUyMHdlYnNpdGUlMjBsb2dvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
+            src="https://images.unsplash.com/photo-1523800378286-dae1f0dae656?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmFubmVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
             <NavLink exact to="/" activeClassName="active">
             Home
           </NavLink>

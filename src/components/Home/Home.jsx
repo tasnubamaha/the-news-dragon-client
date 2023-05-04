@@ -134,7 +134,6 @@ const Home = () => {
         </p>
         <button>Learn More</button>
       </section>
-      <hr></hr>
       <section className="section">
         <h2 className='sec2'>Testimonials</h2>
         <div className="testimonial">
@@ -156,6 +155,46 @@ const Home = () => {
       </section>
     </div>
   
+    <footer>
+  <div className="container">
+    <div className="row">
+      <div className="col-sm-6 col-md-4">
+        <h5>Explore</h5>
+        <ul className="list-unstyled">
+          <li><a href="#">More Details</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div className="col-sm-6 col-md-4">
+        <h5>Follow Us</h5>
+        <ul className="list-unstyled">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+      <div className="col-sm-12 col-md-4">
+        <h5>Newsletter</h5>
+        <p>Sign up to receive updates and exclusive offers.</p>
+        
+      </div>
+    </div>
+  </div>
+  <div className="footer-bottom">
+    <div className="container">
+      <div className="row">
+        <div className="col-sm-12">
+          <p>&copy; 2023 Food Website. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  
+
+
 
 </div>
     
