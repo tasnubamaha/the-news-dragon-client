@@ -1,12 +1,13 @@
 import React from 'react';
+import './Blog.css'
 
 const Blog = () => {
     return (
         <div>
             <h2>Some Questions</h2>
             <p>
-                <span>Tell us the differences between uncontrolled and controlled components.
-                </span>
+                <span className='pen'>1. Tell us the differences between uncontrolled and controlled components.
+                </span><br></br>
                 In the context of a software system, components can be classified into two categories: uncontrolled and controlled components.
 
                 Uncontrolled components are those that are not managed by the application or framework. They are typically created and managed by the browser or the operating system. Examples of uncontrolled components include HTML form elements like input, textarea, and select.
@@ -18,8 +19,8 @@ const Blog = () => {
                 Controlled components are generally preferred in React applications because they provide better control and maintainability. However, there are situations where uncontrolled components are more appropriate, such as when you need to handle user input without requiring the user to submit a form.
             </p> <br></br>
             <p>
-             <span>How to validate React props using PropTypes
-            </span>
+             <span className='pen'>2. How to validate React props using PropTypes?
+            </span><br></br>
             React is a JavaScript library that allows you to build reusable user interface components. These components can accept input data through props (short for properties), which are essentially parameters passed to the component. Props can contain any data type, from simple strings and numbers to complex objects and arrays.
 
             In order to ensure that the data passed to a component through props is of the correct type and shape, React provides a built-in library called PropTypes. PropTypes allows you to validate the type and shape of props and specify whether they are required or not.
@@ -27,25 +28,22 @@ const Blog = () => {
             PropTypes provides a set of predefined validators for common data types, such as string, number, boolean, array, and object. You can also define custom validators for more complex data types.
             </p> <br></br>
             <p>
-                <span>Tell us the difference between nodejs and express js.</span>
-                Node.js and Express.js are two popular technologies used in web development, and while they are often used together, they are not the same thing. Here are the main differences between Node.js and Express.js:
-
-            Node.js:
-
+            <span className='pen'>3. Tell us the difference between nodejs and express js.</span> <br></br>
+            Node.js and Express.js are two popular technologies used in web development, and while they are often used together, they are not the same thing. Here are the main differences between Node.js and Express.js:<br></br>
+             <span className='pen'>Node.js:</span> <br></br>
             Node.js is a server-side runtime environment for JavaScript, meaning it allows JavaScript to be executed outside of the browser, on the server-side.
             Node.js is built on top of Googles V8 JavaScript engine and allows developers to write server-side applications in JavaScript.
-            Node.js provides a set of built-in modules, such as the http module, which allows developers to create a web server that can listen for incoming requests and respond to them.
+            Node.js provides a set of built-in modules, such as the http module, which allows developers to create a web server that can listen for incoming requests and respond to them.<br></br>
 
-            Express.js:
-
+            <span className='pen'>Express.js:</span> <br></br>
             Express.js is a web framework built on top of Node.js, which provides a set of features and tools to make it easier to build web applications and APIs.
             Express.js provides a number of features such as routing, middleware, and templates that help developers build web applications quickly and easily.
             Express.js is highly customizable, allowing developers to use only the features they need and extend the framework with additional middleware and plugins. <br></br>
             </p>
             <p>
-                <span>
-                What is a custom hook, and why will you create a custom hook?
-                </span>
+                <span className='pen'>
+                4. What is a custom hook, and why will you create a custom hook?
+                </span> <br></br>
                 In React, a custom hook is a JavaScript function that starts with the prefix use and allows you to encapsulate reusable logic that can be shared across multiple components. Custom hooks allow you to abstract away complex logic, making it easier to reuse and maintain.
 
                 Custom hooks can be created for a variety of use cases, such as:
